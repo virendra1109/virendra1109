@@ -1,0 +1,154 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting fastapi==0.115.0 (from -r requirements.txt (line 1))
+  Downloading fastapi-0.115.0-py3-none-any.whl.metadata (27 kB)
+Collecting uvicorn==0.30.6 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading uvicorn-0.30.6-py3-none-any.whl.metadata (6.6 kB)
+Collecting python-multipart==0.0.9 (from -r requirements.txt (line 3))
+  Downloading python_multipart-0.0.9-py3-none-any.whl.metadata (2.5 kB)
+Collecting pydantic==2.9.2 (from -r requirements.txt (line 4))
+  Downloading pydantic-2.9.2-py3-none-any.whl.metadata (149 kB)
+Collecting matplotlib==3.9.2 (from -r requirements.txt (line 5))
+  Downloading matplotlib-3.9.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting pandas==2.2.3 (from -r requirements.txt (line 6))
+  Downloading pandas-2.2.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+Collecting wordcloud==1.9.3 (from -r requirements.txt (line 7))
+  Downloading wordcloud-1.9.3.tar.gz (27.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.6/27.6 MB 27.6 MB/s eta 0:00:00
+
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting graphviz==0.20.3 (from -r requirements.txt (line 8))
+  Downloading graphviz-0.20.3-py3-none-any.whl.metadata (12 kB)
+Collecting pdfkit==1.0.0 (from -r requirements.txt (line 9))
+  Downloading pdfkit-1.0.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting starlette<0.39.0,>=0.37.2 (from fastapi==0.115.0->-r requirements.txt (line 1))
+  Downloading starlette-0.38.6-py3-none-any.whl.metadata (6.0 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.115.0->-r requirements.txt (line 1))
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting click>=7.0 (from uvicorn==0.30.6->uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading click-8.3.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn==0.30.6->uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic==2.9.2->-r requirements.txt (line 4))
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.23.4 (from pydantic==2.9.2->-r requirements.txt (line 4))
+  Downloading pydantic_core-2.23.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting contourpy>=1.0.1 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading contourpy-1.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading fonttools-4.60.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (112 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading kiwisolver-1.4.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.3 kB)
+Collecting numpy>=1.23 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting packaging>=20.0 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pillow>=8 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading pyparsing-3.2.5-py3-none-any.whl.metadata (5.0 kB)
+Collecting python-dateutil>=2.7 (from matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas==2.2.3->-r requirements.txt (line 6))
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas==2.2.3->-r requirements.txt (line 6))
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting httptools>=0.5.0 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading httptools-0.7.1-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.5 kB)
+Collecting python-dotenv>=0.13 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)
+Requirement already satisfied: pyyaml>=5.1 in /usr/lib/python3/dist-packages (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2)) (6.0.2)
+Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading uvloop-0.21.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting watchfiles>=0.13 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading watchfiles-1.1.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting websockets>=10.4 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+  Downloading websockets-15.0.1-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib==3.9.2->-r requirements.txt (line 5))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting anyio<5,>=3.4.0 (from starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+  Downloading anyio-4.11.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting idna>=2.8 (from anyio<5,>=3.4.0->starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+  Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting sniffio>=1.1 (from anyio<5,>=3.4.0->starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Downloading fastapi-0.115.0-py3-none-any.whl (94 kB)
+Downloading uvicorn-0.30.6-py3-none-any.whl (62 kB)
+Downloading python_multipart-0.0.9-py3-none-any.whl (22 kB)
+Downloading pydantic-2.9.2-py3-none-any.whl (434 kB)
+Downloading matplotlib-3.9.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 32.0 MB/s eta 0:00:00
+
+Downloading pandas-2.2.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 89.4 MB/s eta 0:00:00
+
+Downloading graphviz-0.20.3-py3-none-any.whl (47 kB)
+Downloading pdfkit-1.0.0-py3-none-any.whl (12 kB)
+Downloading pydantic_core-2.23.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 155.4 MB/s eta 0:00:00
+
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading click-8.3.0-py3-none-any.whl (107 kB)
+Downloading contourpy-1.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (362 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.60.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 38.8 MB/s eta 0:00:00
+
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading httptools-0.7.1-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (478 kB)
+Downloading kiwisolver-1.4.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 69.5 MB/s eta 0:00:00
+
+Downloading numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 98.3 MB/s eta 0:00:00
+
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Downloading pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 77.7 MB/s eta 0:00:00
+
+Downloading pyparsing-3.2.5-py3-none-any.whl (113 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading python_dotenv-1.1.1-py3-none-any.whl (20 kB)
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Downloading starlette-0.38.6-py3-none-any.whl (71 kB)
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Downloading uvloop-0.21.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 44.6 MB/s eta 0:00:00
+
+Downloading watchfiles-1.1.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (456 kB)
+Downloading websockets-15.0.1-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (182 kB)
+Downloading anyio-4.11.0-py3-none-any.whl (109 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading idna-3.11-py3-none-any.whl (71 kB)
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Building wheels for collected packages: wordcloud
+  Building wheel for wordcloud (pyproject.toml): started
+  Building wheel for wordcloud (pyproject.toml): finished with status 'done'
+  Created wheel for wordcloud: filename=wordcloud-1.9.3-cp313-cp313-linux_x86_64.whl size=467302 sha256=8e4fc77a1636c88e5db0d70013c6e55b984e9f00792c92bd89361b01d2e314dd
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/f7/dd/50/406f185c0671160ecbce6743a4e2c688a4a9f269dd9c73b5dc
+Successfully built wordcloud
+Installing collected packages: pytz, pdfkit, websockets, uvloop, tzdata, typing-extensions, sniffio, six, python-multipart, python-dotenv, pyparsing, pillow, packaging, numpy, kiwisolver, idna, httptools, h11, graphviz, fonttools, cycler, click, annotated-types, uvicorn, python-dateutil, pydantic-core, contourpy, anyio, watchfiles, starlette, pydantic, pandas, matplotlib, wordcloud, fastapi
+  WARNING: The script websockets is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script dotenv is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts f2py and numpy-config are installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts fonttools, pyftmerge, pyftsubset and ttx are installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script uvicorn is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script watchfiles is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script wordcloud_cli is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script fastapi is installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed annotated-types-0.7.0 anyio-4.11.0 click-8.3.0 contourpy-1.3.3 cycler-0.12.1 fastapi-0.115.0 fonttools-4.60.1 graphviz-0.20.3 h11-0.16.0 httptools-0.7.1 idna-3.11 kiwisolver-1.4.9 matplotlib-3.9.2 numpy-2.3.4 packaging-25.0 pandas-2.2.3 pdfkit-1.0.0 pillow-12.0.0 pydantic-2.9.2 pydantic-core-2.23.4 pyparsing-3.2.5 python-dateutil-2.9.0.post0 python-dotenv-1.1.1 python-multipart-0.0.9 pytz-2025.2 six-1.17.0 sniffio-1.3.1 starlette-0.38.6 typing-extensions-4.15.0 tzdata-2025.2 uvicorn-0.30.6 uvloop-0.21.0 watchfiles-1.1.1 websockets-15.0.1 wordcloud-1.9.3
